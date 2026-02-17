@@ -36,7 +36,7 @@ cd Random-Quote-API
 pip install -r requirements.txt
 
 # Run locally
-uvicorn main:app --reload --port 8000
+build.bat
 ```
 Now open in your browser:
 
