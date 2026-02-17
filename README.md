@@ -1,43 +1,39 @@
 <div align="center">
-
+  <img src="https://img.shields.io/badge/RandomQuote%20API-✨-brightgreen?style=for-the-badge" alt="Random Quote API ✨">
   <h1>Random Quote API ✨</h1>
-
   <p>
-    <strong>Free, fast & open REST API</strong> delivering hand-curated motivational, funny, and programming quotes.<br>
-    Built with <strong>FastAPI</strong> — modern, high-performance, automatic docs included.
+    <strong>Free & beautiful REST API</strong> for hand-curated motivational, programming, life & wisdom quotes.<br>
+    Built with <strong>FastAPI</strong> – automatic interactive docs, blazing fast, production-ready.
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-    <img src="https://img.shields.io/github/license/YOUR-USERNAME/Random-Quote-API?style=for-the-badge" alt="License">
-    <img src="https://img.shields.io/github/stars/YOUR-USERNAME/Random-Quote-API?style=for-the-badge&color=yellow" alt="Stars">
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+    <img src="https://img.shields.io/github/license/YOUR-USERNAME/InspireQuoteAPI?style=flat-square" alt="License: MIT">
+    <img src="https://img.shields.io/github/stars/YOUR-USERNAME/InspireQuoteAPI?style=flat-square&color=yellow" alt="Stars">
   </p>
 
-  <a href="https://your-random-quote-api.onrender.com/docs">
-    <img src="https://img.shields.io/badge/Live%20Demo-View%20Swagger%20UI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="Live Demo">
+  <a href="https://your-inspirequoteapi.onrender.com/docs">
+    <img src="https://img.shields.io/badge/Live%20Demo-Open%20Swagger%20UI-FF4081?style=flat-square&logo=fastapi&logoColor=white" alt="Live Demo">
   </a>
-
 </div>
 
-## 🌟 Why this API?
+## Why You'll Love It
+- **Instant inspiration** – one endpoint, endless motivation
+- **Categories** (motivational, programming, funny, wisdom...)
+- **Multiple quotes** in one call
+- **Interactive docs** – try it live with Swagger UI
+- **Free deploy** ready (Render, Railway, Vercel Python...)
+- Great for: GitHub README widgets, Discord/Telegram bots, daily quote apps, blogs, portfolios
 
-- One endpoint → instant random quote
-- Multiple quotes in one call (up to 20)
-- Categories: motivational, programming, funny, general...
-- Interactive docs (Swagger + ReDoc) out of the box
-- Ready for free hosting (Render, Railway, Fly.io)
-- Perfect for: widgets, slack bots, daily motivation apps, blogs, portfolios
-
-## 🚀 Quick Start (Local)
+## Quick Start
 
 ```bash
-# 1. Clone
-git clone https://github.com/YOUR-USERNAME/Random-Quote-API.git
-cd Random-Quote-API
+git clone https://github.com/YOUR-USERNAME/InspireQuoteAPI.git
+cd Random-Quote-API 
 
-# 2. Install
+# Install
 pip install -r requirements.txt
 
-# 3. Run (auto-reload for dev)
+# Run locally
 uvicorn main:app --reload --port 8000
