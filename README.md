@@ -29,7 +29,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/InspireQuoteAPI.git
+git clone https://github.com/voidethic/Random-Quote-API.git
 cd Random-Quote-API 
 
 # Install
